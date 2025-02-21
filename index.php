@@ -8,8 +8,8 @@
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-  <div class="w-full h-[100vh] flex justify-center items-center bg-zinc-900 text-zinc-100">
+<body class="bg-zinc-900 text-zinc-100">
+  <div class="w-full h-[100vh] flex justify-center items-center mb-24">
     <section class="w-2/3 flex flex-col items-center">
       <img class="w-48 border-[2px] p-1 border-green-500 rounded-full mb-20" src="https://github.com/phmc99.png" alt="Me">
       <div class="flex flex-col gap-6 items-center">
@@ -29,9 +29,13 @@
         }
         ?>
       </ul>
-
     </section>
   </div>
+  <section class="my-24">
+    <div class="w-2/3 flex flex-col items-center mx-auto">
+      <?php include('./components/jobCard.php') ?>
+    </div>
+  </section>
 </body>
 
 </html>

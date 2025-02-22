@@ -40,6 +40,17 @@
       <?php include('./components/jobCard.php') ?>
     </div>
   </section>
+  <section class="my-24">
+    <div class="w-2/3 flex flex-col items-center mx-auto">
+
+      <div class="w-1/2 mx-auto flex flex-col items-center gap-2 mb-16">
+        <h2 class="text-green-500 text-2xl">Contato</h2>
+        <p class="font-bold text-3xl">Gostou do meu trabalho?</p>
+        <p class="text-lg">Entre em contato ou acompanhe as minhas redes sociais!</p>
+      </div>
+      <?php include('./components/contactsList.php') ?>
+    </div>
+  </section>
 </body>
 
 </html>
